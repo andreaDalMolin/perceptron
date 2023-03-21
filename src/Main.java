@@ -4,8 +4,6 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        double w1, w2, w3 = 0;
-        double rate = 1;
         int numRows = 4;
         int numCols = 3;
         double[][] data = new double[numRows][numCols];
