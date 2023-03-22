@@ -18,7 +18,11 @@ public class Perceptron {
     public void train(){
         int it = 1;
         GraphDrawer perceptronSimple = new GraphDrawer("Perceptron simple");
-
+        perceptronSimple.addPoint("My point 1", 0, 0);
+        perceptronSimple.addPoint("My point 2", 0, 1);
+        perceptronSimple.addPoint("My point 3", 1, 0);
+        perceptronSimple.addPoint("My point 4", 1, 1);
+        
         do {
             nbErrors = 0;
 
